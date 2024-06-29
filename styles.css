@@ -160,3 +160,33 @@ blockquote footer {
     font-weight: bolder;
     align-self: flex-end;
 }
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    border-radius: 10px;
+    gap: 40px;
+}
+
+.left-cta {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-cta h3,
+.left-cta p {
+    margin: 0;
+    padding: 0;
+}
+
+.action-container button {
+    border: 2px solid white;
+}
