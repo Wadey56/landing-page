@@ -11,6 +11,7 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 
 a,
@@ -22,12 +23,20 @@ a,
 .nav h1 {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 0;
 }
 
 button,
 .action-container {
     color: #F9FAF8;
     background-color: #3882F6;
+}
+
+button {
+    color: #F9FAF8;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: bolder;
 }
 
 h2 {
@@ -71,6 +80,31 @@ li {
 
 a {
     text-decoration: none;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.left {
+    width: 430px;
+}
+
+.left p {
+    margin-top: 0;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: #F9FAF8;
+    height: 250px;
+    width: 500px;
 }
 
 * {
